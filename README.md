@@ -2,7 +2,7 @@
 Implementación de módulos y paquetes con el código usado en el Reto-04 sobre la clase "Shape"
 
 ### Estructura del paquete: 
-
+```
 ShapePackage/
 │
 ├── basicgeometry/
@@ -20,21 +20,20 @@ ShapePackage/
     ├── isoceles.py
     ├── scalene.py
     └── trirectangle.py
+```
 
 ## Descripción:
 El paquete principal ShapePackage está compuesto por tres módulos, los cuales poseen importaciones entre sí para facilitar la legibilidad y estructura de los códigos.
 
 ## Importaciones Relativas desde el mismo módulo:
-python
-"""
+```python
 from .point import Point
 from .line import Line
 from .triangle import Triangle
-"""
+```
 ## Importaciones Relativas desde otrom módulo:
-python 
-"""
+```python 
 from ..basicgeometry.shape import Shape
 from ..basicgeometry.point import Point
-"""
+```
 
