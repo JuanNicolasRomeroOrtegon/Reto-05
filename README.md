@@ -31,7 +31,7 @@ from .point import Point
 from .line import Line
 from .triangle import Triangle
 ```
-## Importaciones Relativas desde otrom módulo:
+## Importaciones Relativas desde otro módulo:
 ```python 
 from ..basicgeometry.shape import Shape
 from ..basicgeometry.point import Point
